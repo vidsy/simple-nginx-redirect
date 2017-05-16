@@ -8,7 +8,9 @@
 
 Run the container and set the configurable env vars to set the hostname, servername and redirect status code:
 
-`$: docker run -P -e REDIRECT_URI=http://www.test.com -e REDIRECT_STATUS_CODE=301 vidsyhq/simple-nginx-redirect`
+```
+$: docker run -P -e REDIRECT_URI=http://www.test.com -e REDIRECT_STATUS_CODE=301 vidsyhq/simple-nginx-redirect
+```
 
 Environment variables to configure the service:
 
