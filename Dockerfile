@@ -1,5 +1,8 @@
 FROM nginx:1.11.8-alpine
-MAINTAINER steve@vidsy.co
+LABEL maintainer="Vidsy <tech@vidsy.co>"
+
+ARG VERSION
+LABEL version=$VERSION
 
 ENV SERVER_NAME localhost
 ENV REDIRECT_URI http://example.com
